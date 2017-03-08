@@ -1,0 +1,63 @@
+Object:
+- any real world thing that you want to represent in a program
+- contains 2 parts: -properties (something it has)
+		    		-actions (something it does)
+
+
+Class:
+- representation of common properties & functions of an object
+- it is the type of and object
+- a class is some kind of blueprint
+
+
+Constructor:
+- a special method that is called when you use the "new" operator (when you create an object)
+- performs initializations of instance variables of a class
+	
+
+Encapsulation:
+- it helps us to show/hide what user can access	(encapsulation ~ data hiding)
+- setting public getter method to read the private data fields
+- setting public setter method to update the private data fields
+
+
+Inheritance:
+- the process where one class acquires properties of another
+- keyword:  " extends "
+- the derived class can access base class properties AND the derived class has its own properties.
+
+
+Abstraction:
+- is achieved by  using interfaces or abstract classes
+- an interface or abstract class is something which is not concrete, something incomplete.
+
+		Abstract class:
+		-  a class that is declared abstract
+ 		-  it may or may not include abstract methods
+ 		-  cannot be instantiated, but can be subclassed.
+		
+		Interface:
+		- a completely abstract class that contains only abstract methods
+		- cannot contain an implementation of the methods (it is possible in Java 8)
+
+
+Polymorphism:
+- the ability of an object to take on many forms
+
+     Note: The superclass reference variable can point to any object of it's subclasses;
+           Depending on that object, it can call the overriden method of the method it defines
+ 
+     Polymorphism types: - Compile time polymorphism (static binding) -> method overloading
+                         - Runtime polymorphism (dynamic binding) -> method overriding
+
+
+Method OVERLOADING:
+- same class 
+- same name
+- different argument list (parameters)
+
+
+Method OVERRIDING:
+- different class (Parent - Child)
+- same name
+- same argument list (parameters) 

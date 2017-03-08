@@ -1,0 +1,27 @@
+
+
+Specificatorii de acces sunt cuvinte rezervate java folosite pentru a controla accesul asupra claselor şi membrilor claselor (atribute şi metode). În java există patru specificatori de acces:
+
+    private
+    protected
+    public
+    package
+
+Specificatorul de acces package:
+
+Un membru al unei clase ce nu are setat nici unul din specificatorii de acces private, protected sau public are nivelul de acces package (acces de pachet). Aceasta înseamnă că acest membru poate fi accesat de către toate clasele din acelaşi pachet cu clasa ce conţine acest membru. Clasele din alte pachete nu au acces la membrii cu specificator de acces package.
+
+
+Specificatorul de acces public:
+
+Un membru ce are specificator de acces public poate fi accesat din cadrul oricărei clase indiferent de localizarea acesteia – chiar dacă face parte din acelaşi pachet cu membrul public sau din alt pachet.
+
+
+Specificatorul de acces private:
+
+Un membru cu specificator de acces private nu este accesibil decât din interiorul clasei în care este definit. Un membru private nu este accesibil din cadrul claselor din acelaşi pachet.
+
+
+Specificatorul de acces protected:
+
+Membrii protected sunt accesibili din cadrul aceluiaşi pachet (nivel de acces similar cu cel de pachet) dar în plus sunt accesibili şi din cadrul claselor din alte pachete care moştenesc clasa ce conţine membrul protected. 

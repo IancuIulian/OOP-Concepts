@@ -1,0 +1,39 @@
+Why is main static?
+Answer 1:
+    The main method is static in Java beause the JVM needs to call the main method without creating an object of your class.
+
+Answer 2:
+    The main method is static since it must be be accessible for an application to run before any instantiation takes place.
+
+
+The static keyword can be used in 4 scenarios
+
+    static variables
+    static methods
+    static blocks of code.  //these are executed before construcor
+    static nested class
+
+static variable
+
+    It is a variable which belongs to the class and not to object(instance)
+    Static variables are initialized only once , at the start of the execution . These variables will be initialized first, before the initialization of any instance variables
+    A single copy to be shared by all instances of the class
+    A static variable can be accessed directly by the class name and doesn’t need any object
+    Syntax : Class.variable
+
+static method
+
+    It is a method which belongs to the class and not to the object(instance)
+    A static method can access only static data. It can not access non-static data (instance variables) unless it has/creates an instance of the class.
+    A static method can call only other static methods and can not call a non-static method from it unless it has/creates an instance of the class.
+    A static method can be accessed directly by the class name and doesn’t need any object
+    Syntax : Class.methodName()
+    A static method cannot refer to this or super keywords in anyway
+
+static class
+
+Java also has "static nested classes",A static nested class is just one which doesn't implicitly have a reference to an instance of the outer class.
+
+Static nested classes can have instance methods and static methods.
+
+There's no such thing as a top-level static class in Java.
