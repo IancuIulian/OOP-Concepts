@@ -17,6 +17,7 @@
 public class AbstractClass {
     public static void main(String[] args) {
         Potato p = new Potato();
+        p.prepare();
         p.eat();
     }
 }
