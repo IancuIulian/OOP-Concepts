@@ -1,7 +1,7 @@
 Object:
 - any real world thing that you want to represent in a program
 - contains 2 parts: -properties (something it has)
-		    		-actions (something it does)
+		    -actions (something it does)
 
 
 Class:
