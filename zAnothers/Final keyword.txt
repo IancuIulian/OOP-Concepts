@@ -1,12 +1,19 @@
 
 final keyword is used in several different contexts to define an entity which cannot later be changed.
 
-    A final class cannot be subclassed. This is done for reasons of security and efficiency. Accordingly, many of the Java standard library classes are final, for example java.lang.System and java.lang.String. All methods in a final class are implicitly final.
+    A final class cannot be subclassed. This is done for reasons of security and efficiency. Accordingly, many of the Java standard library
+classes are final, for example java.lang.System and java.lang.String. All methods in a final class are implicitly final.
 
-    A final method can't be overridden by subclasses. This is used to prevent unexpected behavior from a subclass altering a method that may be crucial to the function or consistency of the class.
+    A final method can't be overridden by subclasses. This is used to prevent unexpected behavior from a subclass altering a method that may be
+crucial to the function or consistency of the class.
 
-    A final variable can only be initialized once, either via an initializer or an assignment statement. It does not need to be initialized at the point of declaration: this is called a blank final variable. A blank final instance variable of a class must be definitely assigned at the end of every constructor of the class in which it is declared; similarly, a blank final static variable must be definitely assigned in a static initializer of the class in which it is declared; otherwise, a compile-time error occurs in both cases.
+    A final variable can only be initialized once, either via an initializer or an assignment statement. It does not need to be initialized at
+the point of declaration: this is called a blank final variable. A blank final instance variable of a class must be definitely assigned at the
+end of every constructor of the class in which it is declared; similarly, a blank final static variable must be definitely assigned in a static
+initializer of the class in which it is declared; otherwise, a compile-time error occurs in both cases.
 
-Note: If the variable is a reference, this means that the variable cannot be re-bound to reference another object. But the object that it references is still mutable, if it was originally mutable.
+Note: If the variable is a reference, this means that the variable cannot be re-bound to reference another object. But the object that it
+references is still mutable, if it was originally mutable.
 
-When an anonymous inner class is defined within the body of a method, all variables declared final in the scope of that method are accessible from within the inner class. Once it has been assigned, the value of the final variable cannot change.
+When an anonymous inner class is defined within the body of a method, all variables declared final in the scope of that method are accessible
+from within the inner class. Once it has been assigned, the value of the final variable cannot change.
