@@ -46,3 +46,9 @@ class Cat extends Animal{
         System.out.println("Meow!");
     }
 }
+
+/*
+Output:
+Woof!
+Meow!
+ */
