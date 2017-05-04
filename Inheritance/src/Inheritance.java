@@ -39,3 +39,10 @@ class C extends B{
         System.out.println("class C method");
     }
 }
+
+/*
+Output:
+class A method
+class B method
+class C method
+*/
