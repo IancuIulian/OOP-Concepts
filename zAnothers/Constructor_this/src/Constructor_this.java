@@ -10,6 +10,10 @@ public class Constructor_this {
         Dog.DogPrinter(dog2);
     }
 }
+/* Output:
+Dog "untitled" age "0" says hi
+Dog "Wollie" age "2" says hi
+*/
 
 class Dog{
     String name;
