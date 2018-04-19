@@ -8,6 +8,11 @@ public class PolymorphismConceptChallenge {
         u.method1();
     }
 }
+/* Output:
+Student 1
+Person 1
+Undergrad 2
+*/
 
 class Person{
     public void method1(){
