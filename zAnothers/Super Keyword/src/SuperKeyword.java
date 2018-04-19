@@ -19,7 +19,7 @@ public class SuperKeyword {
         s.printMethod();     System.out.println();
         r.printMethod();     System.out.println();
         sq.printMethod();
-        /*
+        /* Output:
         *** Using super keyword for methods ***
         Printed in Shape class
 
