@@ -7,16 +7,29 @@ public class SuperKeyword {
         Shape s = new Shape("Shape");
         Rectangle r = new Rectangle("Rectangle");
         Square sq = new Square("Square");
+        /* Output:
+        Shape
+        Rectangle
+        Square
+        Note: "super" keyword must be used first within the new constructor
+        */
 
-        System.out.println("\n*** Using static keyword for methods ***");
+        System.out.println("\n*** Using super keyword for methods ***");
 
-        s.printMethod();
-        System.out.println();
-
-        r.printMethod();
-        System.out.println();
-
+        s.printMethod();     System.out.println();
+        r.printMethod();     System.out.println();
         sq.printMethod();
+        /*
+        *** Using super keyword for methods ***
+        Printed in Shape class
+
+        Printed in Shape class
+        Printed in Rectangle class
+
+        Printed in Shape class
+        Printed in Rectangle class
+        Printed in Square class
+        */
 
     }
 }
