@@ -14,7 +14,7 @@ public class Constructor {
         Boy billy = new Boy("Billy",12);
         billy.getInfo();   //works
 
-        Boy bob = new Boy();
+        Boy bob = new Boy(); //asks for params
        // bob.getInfo();  // brings an error, unless we declare a constructor for this case.
 
     }
