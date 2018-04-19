@@ -12,6 +12,16 @@ public class ConstructorChaining {
         Square sq = new Square();
     }
 }
+/* Output:
+Shape
+
+Shape
+Rectangle
+
+Shape
+Rectangle
+Square
+*/
 
 class Shape {
 
