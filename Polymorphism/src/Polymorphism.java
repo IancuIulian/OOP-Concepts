@@ -5,7 +5,7 @@
  *
  *  Note: The superclass reference variable can point to any object of it's subclasses;
  *        Depending on that object, it can call the overriden method of the method it defines
- *      ( Ex:   Superclass obj = new Subclass();
+ *      ( Ex:   Superclass obj = new Subclass();  //Subclass extends Superclass
  *               obj.methodA();  
  *          //assuming there is a "methodA" in both clases(Superclass and Subclass) this will call Subclass's methodA )
  *
