@@ -43,6 +43,15 @@ public class Polymorphism {
         food2.eating(myFood[2]);
     }
 }
+/* Output:
+What should I eat?
+This potato is great!
+This Bread is great!
+*******
+What should I eat?
+This potato is great!
+This Bread is great!
+*/
 
 class Food{
     public void eat(){
